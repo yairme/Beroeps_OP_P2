@@ -9,6 +9,7 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 
@@ -25,21 +26,65 @@ h1{
 }
 .container {
   /*margin-top: 1px;*/
-  padding-top: 60px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(big_noodle_titling.ttf);
+}
 
 #start {
-  background-color: #4CAF50;
+  background-color: #5593bd;
   border: none;
   color: white;
-  padding: 40px 52px;
+  padding: 35px 42px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 35px;
+  font-family: myFirstFont;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#options {
+  background-color: #5593bd;
+  border: none;
+  color: white;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 27px;
+  font-family: myFirstFont;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#extra {
+  background-color: #5593bd;
+  border: none;
+  color: white;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: myFirstFont;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#credits {
+  background-color: #5593bd;
+  border: none;
+  color: white;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: myFirstFont;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -48,3 +93,32 @@ h1{
   left: 49%;
   transform: translateX(-50%);
 }
+#Exit{
+  background-color: #5593bd;
+  border: none;
+  color: white;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: myFirstFont;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: white;
+}
+
