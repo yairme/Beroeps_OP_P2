@@ -14,7 +14,7 @@
 
 
 body {
-  background-image: url('Background.gif');
+  background-image: url('../Images/Background.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -33,7 +33,7 @@ h1{
 }
 @font-face {
   font-family: myFirstFont;
-  src: url(big_noodle_titling.ttf);
+  src: url('../Fonts/big_noodle_titling.ttf');
 }
 
 #start {
