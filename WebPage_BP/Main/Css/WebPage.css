@@ -35,7 +35,9 @@ h1{
 }
 .container {
   /*margin-top: 1px;*/
-  padding-top: 20px;
+  padding-top: 511px;
+  padding-bottom: 54px;
+  background-image: url('../Images/Test.png');
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -50,6 +52,7 @@ h1{
   border: none;
   color: white;
   padding: 35px 42px;
+  top: -50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -57,6 +60,7 @@ h1{
   font-family: myFirstFont;
   margin: 4px 2px;
   cursor: pointer;
+  margin-top: -500px;
 }
 #options {
   background-color: #5593bd;
