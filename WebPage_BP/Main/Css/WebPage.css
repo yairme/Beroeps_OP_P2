@@ -28,19 +28,31 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-h1{
-  text-align: center;
-  top: 30px;
-  position: relative;
-}
 .container {
   /*margin-top: 1px;*/
   padding-top: 511px;
   padding-bottom: 54px;
-  background-image: url('../Images/Test.png');
+  background-image: url('../Images/Title-Background.png');
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.Container-1 {
+  position: absolute;
+  top: 63%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.Test {
+  position: absolute;
+  white-space: nowrap;
+  padding: 0px;
+  font-size: 30px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 @font-face {
   font-family: myFirstFont;
