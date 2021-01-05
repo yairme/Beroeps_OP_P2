@@ -1,9 +1,13 @@
 .transition-fade {
-  transition: 0.4s;
+  transition: 500ms;
   opacity: 1;
 }
 
 html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+html.is-leaving .transition-fade {
   opacity: 0;
 }
 
@@ -26,6 +30,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  overflow-y: hidden;
+  overflow-x: hidden; 
 }
 .container {
   /*margin-top: 1px;*/
@@ -45,21 +51,28 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
-.Container-2 {
+#Second {
   position: absolute;
-  top: 63%;
+  top: 60%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#Third {
+  position: absolute;
+  top: 20%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#Options {
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
-.Container-3 {
-  position: absolute;
-  top: 63%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-.Test {
+.Dont-Touch {
   position: absolute;
   white-space: nowrap;
   padding: 0px;
@@ -67,7 +80,15 @@ body {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+}
+.Options-Text {
+  position: absolute;
+  white-space: nowrap;
+  padding: 0px;
+  font-size: 30px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @font-face {
   font-family: myFirstFont;
