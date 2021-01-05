@@ -51,17 +51,31 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
-#Second {
+#Second-C {
   position: absolute;
   top: 60%;
   left: 62%;
   transform: translate(-50%, -50%);
   color: white;
 }
-#Third {
+#Third-C {
   position: absolute;
   top: 20%;
   left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#Second {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#Third {
+  position: absolute;
+  top: 63%;
+  left: 80%;
   transform: translate(-50%, -50%);
   color: white;
 }
