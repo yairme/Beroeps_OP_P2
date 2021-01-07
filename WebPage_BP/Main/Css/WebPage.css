@@ -37,6 +37,8 @@ body {
   /*margin-top: 1px;*/
   padding-top: 511px;
   padding-bottom: 54px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-image: url('../Images/Title-Background.png');
   display: flex;
   flex-direction: column;
