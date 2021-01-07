@@ -44,66 +44,7 @@ body {
   min-width: 10%;
 
 }
-.Container-1 {
-  position: absolute;
-  top: 63%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-#Second-C {
-  position: absolute;
-  top: 60%;
-  left: 62%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-#Third-C {
-  position: absolute;
-  top: 20%;
-  left: 62%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-#Second {
-  position: absolute;
-  top: 63%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-#Third {
-  position: absolute;
-  top: 63%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-#Options {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-.Dont-Touch {
-  position: absolute;
-  white-space: nowrap;
-  padding: 0px;
-  font-size: 30px;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.Options-Text {
-  position: absolute;
-  white-space: nowrap;
-  padding: 0px;
-  font-size: 30px;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 @font-face {
   font-family: myFirstFont;
   src: url('../Fonts/big_noodle_titling.ttf');
@@ -196,24 +137,3 @@ a:active {
 a:visited {
   color: white;
 }
-.Back { 
-  background-color: #5593bd;
-  border: none;
-  color: white;
-  padding: 5px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  font-family: myFirstFont;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-nav { 
-    /*margin-top: 1px;*/
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }

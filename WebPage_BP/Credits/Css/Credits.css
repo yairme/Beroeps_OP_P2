@@ -1,0 +1,101 @@
+.transition-fade {
+    transition: 500ms;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+  
+  html.is-leaving .transition-fade {
+    opacity: 0;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  body {
+    background-image: url('/WebPage_BP/Main/Images/Background.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+  }
+  .Container-1 {
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  #Second-C {
+    position: absolute;
+    top: 60%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  #Third-C {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .Dont-Touch {
+    position: absolute;
+    white-space: nowrap;
+    padding: 0px;
+    font-size: 30px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../Fonts/big_noodle_titling.ttf');
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    color: black;
+  }
+  a:visited {
+    color: white;
+  }
+  .Back { 
+    background-color: #5593bd;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: myFirstFont;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
