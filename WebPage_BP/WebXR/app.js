@@ -44,3 +44,7 @@ spotLight.setTarget(minecraftModel);
 
 // listen for an event
 minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
+
+// Event's text
+minecraftModel.addEventListener('mouseenter', () =>
+    document.getElementById('extraText').innerHTML = "Test pop up.");
