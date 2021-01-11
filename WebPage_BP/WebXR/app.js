@@ -3,7 +3,7 @@ const controls = new Controls(50);
 controls.enableMovement();
 
 // create a model
-const cuberoom = new Model('obj:(assets/Map_en_objects/Map/World.obj); mtl: (assets/Map_en_objects/Map/World.mtl)');
+const cuberoom = new Model("(assets/Map_en_objects/Map/World.obj); (assets/Map_en_objects/Map/World.mtl)");
 cuberoom.setPosition(0, 0, -5.21484);
 cuberoom.setScale(1, 1.2, 1);
 cuberoom.setRotation(0, -36.95, 0);
