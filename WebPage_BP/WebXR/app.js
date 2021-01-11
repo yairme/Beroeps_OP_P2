@@ -10,7 +10,7 @@ minecraftModel.setRotation(0, -36.95, 0);
 
 // create a model
 
-const cuberoom = new Model('assets/Map_en_objects/Map/World.obj');
+const cuberoom = new Model('assets/Map_en_objects/Map/World.gltf');
 cuberoom.setPosition(0, 0, -5.21484);
 cuberoom.setScale(1, 1.2, 1);
 cuberoom.setRotation(0, -36.95, 0);
