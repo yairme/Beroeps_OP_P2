@@ -41,6 +41,10 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+<<<<<<< HEAD
+=======
+  background-size: 100%;
+>>>>>>> bf76b793c946b165503f074018be1851f0c87148
 }
 
 @font-face {
@@ -125,6 +129,7 @@ a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all .4s ease-in;
 }
 a:hover {
   text-decoration: underline;
