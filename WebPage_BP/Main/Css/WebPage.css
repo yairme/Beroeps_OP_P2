@@ -34,14 +34,13 @@ body {
   overflow-x: hidden; 
 }
 .container {
-  /*margin-top: 1px;*/
-  padding-top: 511px;
-  padding-bottom: 54px;
+  background-size: 100%;
+  padding-top: 400px;
+  padding-bottom: 450px;
   background-image: url('../Images/Title-Background.png');
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 
 @font-face {
