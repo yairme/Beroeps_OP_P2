@@ -41,10 +41,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-<<<<<<< HEAD
-=======
-  background-size: 100%;
->>>>>>> bf76b793c946b165503f074018be1851f0c87148
 }
 
 @font-face {
