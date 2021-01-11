@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-
+  background-size: 100%;
 }
 
 @font-face {
@@ -126,6 +126,7 @@ a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all .4s ease-in;
 }
 a:hover {
   text-decoration: underline;
