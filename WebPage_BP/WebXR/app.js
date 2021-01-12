@@ -9,9 +9,9 @@ cuberoom.setScale(1, 1.2, 1);
 cuberoom.setRotation(0, -36.95, 0);
 
 //create a model
-const statue = new Model("assets/Map_en_objects/vermeer/statue.gltf");
+const statue = new Model("assets/Map_en_objects/vermeer/statue.babylon.gltf");
 statue.setPosition(-3.367, 1.112, 8.679);
-statue.setScale(01, 0.1, 0.1);
+statue.setScale(100, 100, 100);
 statue.setRotation(0, -36.95, 0);
 
 //Painting model
@@ -62,9 +62,9 @@ spotLight_4.setPosition(-3.394, 45.975, 0.449);
 spotLight_4.setTarget(image_3);
 
 // listen for an event
-Model.addEventListener('click', () => console.log('je klikt op mij'));
+//image_1.addEventListener('click', () => console.log('je klikt op mij'));
 
 // Event's text
-Model.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Test pop up.");
-Model.addEventListener('click', () =>
-    document.getElementById('extraText').innerHTML = "Test pop up.");
+///image_1.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Test pop up.");
+/*image_1.addEventListener('click', () =>
+    document.getElementById('extraText').innerHTML = "Test pop up.");*/
