@@ -9,10 +9,11 @@ cuberoom.setScale(1, 1.2, 1);
 cuberoom.setRotation(0, -36.95, 0);
 
 //create a model
-const statue = new Model("assets/Map_en_objects/vermeer/statue.babylon.gltf");
-statue.setPosition(-3.367, 1.112, 8.679);
-statue.setScale(100, 100, 100);
-statue.setRotation(0, -36.95, 0);
+const melkMeisje = new Model('assets/vermeer/export_museumprops.babylon.gltf');
+melkMeisje.setPosition(-0.293, -0.05, -2.57);
+melkMeisje.setScale(100, 100, 100);
+melkMeisje.setRotation(0, 45.45, 0);
+
 
 //Painting model
 const image_1 = new XRImage('assets/Images/Image_1.jpg');
