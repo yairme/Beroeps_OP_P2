@@ -26,7 +26,7 @@
   }
   
   body {
-    background-image: url('/WebPage_BP/Main/Images/Background.gif');
+    background-image: url('../../Main/Images/Background.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
