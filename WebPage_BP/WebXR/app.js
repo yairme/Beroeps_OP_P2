@@ -14,6 +14,12 @@ melkMeisje.setPosition(-1.523, -0.050, -2.570);
 melkMeisje.setScale(100, 100, 100);
 melkMeisje.setRotation(0, 45.45, 0);
 
+//create a model
+const Gem = new Model('assets/Map_en_objects/Gemstone/Gemstone.gltf');
+Gem.setPosition(2.118, -0.005, -16.822);
+Gem.setScale(1, 1, 1);
+Gem.setRotation(0, 48.620, 0);
+
 //Painting model
 const image_1 = new XRImage('assets/Images/Image_1.jpg');
 image_1.setPosition(-3.627, 2.127, 1.043);
