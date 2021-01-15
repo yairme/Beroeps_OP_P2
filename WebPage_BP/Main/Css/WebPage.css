@@ -26,7 +26,7 @@ html.is-leaving .transition-fade {
 }
 
 body {
-  background-image: url('../Images/Background.gif');
+  background-image: url("../../Main/Images/Background.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
