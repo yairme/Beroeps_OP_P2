@@ -63,6 +63,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .Dont-Touch2 {
+    position: absolute;
+    padding: 0px;
+    font-size: 25px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Dont-Touch3 {
+    position: absolute;
+    padding: 0px;
+    font-size: 23px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .Options-Text {
     position: absolute;
     white-space: nowrap;

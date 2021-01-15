@@ -49,7 +49,7 @@
   }
   #Third-C {
     position: absolute;
-    top: 20%;
+    top: 19%;
     left: 62%;
     transform: translate(-50%, -50%);
     color: white;
@@ -61,6 +61,22 @@
     padding: 0px;
     font-size: 30px;
     top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Dont-Touch2 {
+    position: absolute;
+    padding: 0px;
+    font-size: 30px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Dont-Touch3 {
+    position: absolute;
+    padding: 0px;
+    font-size: 24px;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
