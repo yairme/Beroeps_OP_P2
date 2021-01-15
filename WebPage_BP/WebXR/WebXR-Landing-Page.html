@@ -9,8 +9,17 @@
     <style>
       body {
         background-image: url(../Main/Images/WEBXR-Background.png);
+        padding: auto;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        overflow-y: hidden;
+        overflow-x: hidden; 
       }
       a-scene {
+        padding: 10px;
+        margin:10px;
         width:740px;
         height:470px;
       }
@@ -26,7 +35,6 @@
     <a-scene background="color: white" embedded></a-scene>
   </div>
   <!-- Hier eindigt het WebXR component -->
-  </div>
 
   <div style="float:left; margin: 50px" id="extraText"> </div>
 
