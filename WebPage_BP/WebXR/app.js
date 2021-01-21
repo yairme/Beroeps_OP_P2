@@ -75,17 +75,26 @@ spotLight_5.setTarget(melkMeisje);
 
 // Event's text
 image_1.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Kunstwerk ‘Food Chain Project’ van kunstenaar Itamar Gilboa.");
+    document.getElementById('extraText').innerHTML = "Een ballerinabeeld gemaakt door Folkert de Jong.");
 image_1.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
+    
 image_2.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Werkplaats van kunstenaar Folkert de Jong");
+    document.getElementById('extraText').innerHTML = "Een fot van Folkert de Jong");
 image_2.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
+
 image_3.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Kunstwerk van kunstenaar Sabine Tol");
+    document.getElementById('extraText').innerHTML = " 'Gott Mit Uns' -Folkert de Jong");
 image_3.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
 
-melkMeisje.addEventListener('click', () =>
+Gem.addEventListener('mouseenter', () =>
+    document.getElementById('extraText').innerHTML = "Een kunst van druiven.");
+Gem.addEventListener('mouseleave', () =>
+    document.getElementById('extraText').innerHTML = "");
+
+melkMeisje.addEventListener('mouseenter', () =>
     document.getElementById('extraText').innerHTML = "Melkmeisje van Vermeer");
+melkMeisje.addEventListener('mouseleave', () =>
+    document.getElementById('extraText').innerHTML = "");
