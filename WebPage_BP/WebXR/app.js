@@ -75,12 +75,12 @@ spotLight_5.setTarget(melkMeisje);
 
 // Event's text
 image_1.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Een ballerinabeeld gemaakt door Folkert de Jong.");
+    document.getElementById('extraText').innerHTML = "Een ballerina standbeeld gemaakt door folkert de jong.");
 image_1.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
     
 image_2.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Een fot van Folkert de Jong");
+    document.getElementById('extraText').innerHTML = "Een foto van Folkert de Jong");
 image_2.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
 
@@ -90,7 +90,7 @@ image_3.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
 
 Gem.addEventListener('mouseenter', () =>
-    document.getElementById('extraText').innerHTML = "Een kunst van druiven.");
+    document.getElementById('extraText').innerHTML = "Bad grapes gemaakt door Kathleen Ryan");
 Gem.addEventListener('mouseleave', () =>
     document.getElementById('extraText').innerHTML = "");
 
